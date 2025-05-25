@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Comedero | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Jake Comedero</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <div class="hamburger"></div>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hello, I'm <span class="highlight">Jake Comedero</span></h1>
+                    <h2 class="hero-subtitle">Web Developer & Designer</h2>
+                    <p class="hero-description">I create elegant, responsive, and user-friendly websites that help businesses grow online.</p>
+                    <div class="hero-cta">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="5.jpg" alt="Jake Comedero" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="featured-projects section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="1.jpg" alt="E-commerce Website">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">A fully responsive e-commerce website with advanced filtering and payment integration.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">React</span>
+                            </div>
+                            <a href="projects.html#project1" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="2.jpg" alt="Portfolio Website">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">A minimalist portfolio website for a professional photographer showcasing their work.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="projects.html#project2" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/3.jpg" alt="Mobile App">
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">A productivity app that helps users organize tasks and track progress with intuitive UI.</p>
+                            <div class="project-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                            <a href="projects.html#project3" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Development</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Design</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>UI/UX Design</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Responsive Design</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Figma</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Adobe XD</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section Brief -->
+        <section class="about-brief section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="/4.jpg" alt="Jake Comedero" class="about-img">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <p>I'm a passionate web developer and designer with over 4 years of experience creating beautiful, functional websites and applications. I specialize in building responsive, user-friendly interfaces that provide excellent user experiences.</p>
+                        <p>My approach combines creative design with clean, efficient code to deliver projects that not only look great but perform exceptionally well.</p>
+                        <div class="about-cta">
+                            <a href="about.html" class="btn btn-primary">Learn More</a>
+                            <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Brief -->
+        <section class="contact-brief section bg-light">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p>Have a project in mind? I'd love to hear about it and discuss how we can collaborate to bring your vision to life.</p>
+                    <div class="contact-cta">
+                        <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">Jake Comedero</a>
+                </div>
+                <div class="footer-social">
+                    <ul class="social-list">
+                        <li><a href="https://www.facebook.com/jake.comedero" target="_blank" rel="nooper noreferrer"><i class="fab fa-facebook"></i></i></a></li>
+                        <li><a href="https://https://github.com/jakecomedero" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.tiktok.com/" target="_blank" rel="nooper noreferrer"><i class="fab fa-tiktok"></i></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="nooper noreferrer"><i class="fab fa-instagram"></i></i></a></li>
+                        <li><a href="mailto:jake.comedero@example.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jake Comedero. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
